@@ -1,0 +1,50 @@
+Arkanopong - IMAC 2014
+Juliette Belin et Alice Neichols 
+_____________________________
+Lancer le programme :
+
+$ make
+$ ./bin/arkanopong fichier_de_configuration
+
+_____________________________
+Joueur 1
+
+gauche : flèche gauche
+droite : flèche droite
+lancer : flèche haut
+
+Joueur 2
+
+gauche : A
+droite : Z
+lancer : espace
+
+_____________________________
+Créer un thème
+
+- Créer un nouveau dossier dans themes contenant :
+
+	textures
+		background.png
+		balle.png
+		biger.png
+		brick1.png
+		brick2.png
+		brick3.png
+		brick4.png
+		gameOver.png
+		glu.png
+		life.png
+		lifesup.png
+		player.png
+		quit.png
+		speed.png
+	musics
+		backMusic.mp3
+		balle_bump.wav
+		brick_explode.wav
+		brick_str.wav
+		lost.wav
+	
+	
+

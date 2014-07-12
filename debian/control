@@ -1,0 +1,13 @@
+Source: arkanopong
+Section: game
+Priority: extra
+Maintainer: Juliette Belin <juliette.belin@free.fr>
+Build-Depends: debhelper (>= 8.0.0), libsdl-image1.2-dev, libsdl-mixer1.2-dev, libsdl1.2-dev
+Standards-Version: 3.9.3
+Homepage: http://jbelin.com
+
+Package: arkanopong
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Pong game
+ this is a pong game.
